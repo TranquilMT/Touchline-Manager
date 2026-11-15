@@ -1,6 +1,6 @@
 # Touchline 8 — Football Manager
 
-**Beta · 0.10.0 · build 12**
+**Beta · 0.12.0 · build 14**
 
 Build your club from the touchline: choose the team, handle matchday decisions, develop players, negotiate deals and manage the club's finances.
 
@@ -35,6 +35,10 @@ Build your club from the touchline: choose the team, handle matchday decisions, 
 - Bring in academy youngsters, develop them, promote them or release them.
 
 ### Run the club
+- View detailed stadium illustrations for 30 major clubs across 28 venues, with four shared ground types for other clubs.
+- Explore stadium artwork with zoom and stand names placed on architectural fascias.
+- Lease food kiosks, a supporters’ bar and a stadium restaurant; collect home-match rent and sales shares.
+- Open VIP access, set premium prices and track catering costs and income.
 - Set ticket prices, sell season tickets and forecast attendance.
 - Manage budgets, wages, sponsorships and upgrade costs.
 - Improve the stadium, training facilities, medical centre and academy.
@@ -54,14 +58,16 @@ Build your club from the touchline: choose the team, handle matchday decisions, 
 
 ## Download and install
 
-- Download **Touchline-8-0.10.0-preview.apk** from the latest release.
-- This package updates the 0.8.0 and 0.9.0 preview app in place.
+- Download **Touchline-8-0.12.0-preview.apk** from the latest release.
+- This package updates previous 0.8.0–0.11.0 preview releases in place.
 - It installs separately from 0.7.6 because the original 0.7.6 signing key is unavailable.
-- Use the attached **Touchline-8-0.10.0-source.zip** for the complete application source.
-- The release also includes SHA-256 checksums, a progress checklist and animation previews.
+- Use the attached **Touchline-8-0.12.0-source.zip** for the complete application source.
+- The release also includes SHA-256 checksums, detailed feature notes and stadium/tactical component previews.
 
 ## Current scope
 
 Match outcomes use a sampled-possession/event simulation; the moving live pitch illustrates play between highlights. The wider feature programme remains in progress. Player attributes and parts of the roster data are game estimates.
 
-The current build passes 76 automated tests, production compilation and database validation. Physical Android layout and touch testing remain ongoing. See the release notes and attached checklist for detailed progress and limitations.
+Stadium backgrounds are static artistic interpretations of grounds and their surroundings, rather than surveyed replicas. Kenney CC0 turf, footballs, flags and referee cards are integrated into the tactical match view. Existing illustrated close-up goalkeeper and goalpost artwork is preserved.
+
+The current build passes 88 automated tests, production compilation and database validation. Physical Android layout and touch testing remain ongoing. See the release notes and attached checklist for detailed progress and limitations.
